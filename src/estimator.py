@@ -11,7 +11,12 @@ timeToElapse: 58,
 reportedCases: 674,
 population: 66622705,
 totalHospitalBeds: 1380614
-}
+},
+  impact:{currentlyInfected:reportedCases*10},
+  severeImpact:{currentlyinfected:reportedCases*50},
+  impact:{infectionsByRequestedTime:currentlyInfected*(512)},
+  severeImpact:{infectionsByRequestedTime:currentlyInfected*(512)
+ } 
   return data
 {
 data: {}, 
